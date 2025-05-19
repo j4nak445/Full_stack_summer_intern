@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Form</title>
+    
+
+</head>
+<body>
+    <img src="nurse.jp" alt="Doctor Appointment Form image">
+    
+    <hr color="red">
+
+    <form>
+        <h2>Doctor Appointment Form</h2>
+        <label>Appointment Date <input type="date" name="date" id="date"></label><br>
+        <label>Appointment Time <input type="time" name="time" id="time"></label><br>
+        <label>Name <input type="text" name="f_name" id="f_name" placeholder="First Name">
+        <input type="text" name="l_name" id="l_name" placeholder="Last Name"></label><br>
+        <label>Gender <input type="radio" name="male" id="male">Male</input>
+        <input type="radio" name="female" id="female">Female</input></label><br>   
+        <label>Phone <input type="tel" name="phone" id="phone" maxlength="10" placeholder="####"></label><br>
+        <label>Address <input type="text" name="city" id="city" placeholder="city">
+        <input type="text" name="state" id="state" placeholder="state"></label><br>
+        <label>Your Query</label><textarea name="query" id="query"></textarea><br>
+        <label>Appointment Type <br>
+            <label>Select which appointment(s) you require</label><br>
+            <input type="checkbox" id="cervix" name="cervix" value="cervix">
+            <label>Cervix Treatment</label><br>
+            <input type="checkbox" id="heart" name="heart" value="heart">
+            <label>Heart Treatment</label><br>
+            <input type="checkbox" id="eye" name="eye" value="eye">
+            <label>Eye Treatment</label><br>
+            <input type="checkbox" id="ear" name="ear" value="ear">
+            <label>Hearing Treatment</label><br>
+        <button type="submit">Send</button>
+        
+        </label>   
+
+
+
+    </form>
+</body>
+</html>

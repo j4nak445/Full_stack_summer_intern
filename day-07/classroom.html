@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classroom Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="h-20">
+    <div class="flex items-center justify-start h-16 px-6 border-b">
+        <img src="https://ssl.gstatic.com/classroom/ic_product_classroom_96.png" class="w-6 h-6 mr-2" />
+        <span class="text-xl font-semibold">Classroom</span>
+      </div>
+
+  </div>
+  <div class="flex h-screen">
+   
+      
+      <ul class="py-4 space-y-2">
+        <li class="px-6 py-2  flex items-center gap-3">
+          <i class="fas fa-home"></i> Home
+        </li>
+        <li class="px-6 py-2 flex items-center gap-3">
+          <i class="fas fa-calendar"></i> Calendar
+        </li>
+        <hr class="mx-6 my-2 border-gray-300">
+        <li class="px-6 py-2 flex items-center gap-3">
+          <i class="fas fa-graduation-cap"></i> Enrolled
+        </li>
+        <li class="px-6 py-2 flex items-center gap-3">
+          <i class="fas fa-clipboard-list"></i> To-do
+        </li>
+        <hr class="mx-6 my-2 border-gray-300">
+        <li class="px-6 py-2 flex items-center gap-3">
+          <div class="w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center text-sm">M</div> 
+          MERN - A (Summer)
+        </li>
+        <li class="px-6 py-2 flex items-center gap-3">
+          <div class="w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center text-sm">L</div> 
+          Linux Summer - 5 May 2025
+        </li>
+        <hr class="mx-6 my-2 border-gray-300">
+        <li class="px-6 py-2 flex items-center gap-3">
+          <i class="fas fa-box-archive"></i> Archived classes
+        </li>
+        <li class="px-6 py-2 flex items-center gap-3">
+          <i class="fas fa-cog"></i> Settings
+        </li>
+      </ul>
+    </aside>
+    <main class="flex-1 p-6 overflow-y-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow p-4">
+          <div class="bg-red-400 text-white px-4 py-2 rounded-t-lg">
+            <h2 class="text-lg font-semibold">MERN - A (Summer)</h2>
+            <p class="text-sm">REGex Software</p>
+          </div>
+          <div class="flex justify-between items-center mt-4 px-2">
+            <div class="w-10 h-10 bg-green-600 rounded-full text-white flex items-center justify-center text-lg font-bold">R</div>
+            <div class="flex gap-3">
+              <i class="fas fa-camera"></i>
+              <i class="fas fa-folder"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4">
+          <div class="bg-red-400 text-white px-4 py-2 rounded-t-lg">
+            <h2 class="text-lg font-semibold">Linux Summer - 5 May 2025</h2>
+            <p class="text-sm">REGex Software</p>
+          </div>
+          <div class="flex justify-between items-center mt-4 px-2">
+            <div class="w-10 h-10 bg-green-600 rounded-full text-white flex items-center justify-center text-lg font-bold">R</div>
+            <div class="flex gap-3">
+              <i class="fas fa-camera"></i>
+              <i class="fas fa-folder"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

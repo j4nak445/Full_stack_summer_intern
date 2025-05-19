@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-black h-screen flex flex-col p-1">
+
+    <!-- Navbar -->
+    <div class="bg-[#080002] h-16 flex justify-between items-center text-white">
+        <div class="flex gap-8 px-8 text-md">
+            <i class="text-lg fa-solid fa-ellipsis-vertical rotate-90"></i>
+            <i class="fa-solid fa-less-than"></i>
+            <i class="fa-solid fa-greater-than"></i>
+        </div>
+        <div class="flex gap-6 items-center text-xl">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="w-full bg-transparent border border-gray-300 text-center rounded-2xl" placeholder="Search Here">
+        </div>
+        <div class="flex gap-6 px-8 text-2xl">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-people-group"></i>
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+    <!-- Middle Section -->
+<div class="bg-black flex-grow grid grid-cols-12 overflow-hidden">
+
+      <!-- Left Bar -->
+      <div class="font-bold hidden xl:block xl:col-span-2 bg-[#1C1C1C] mr-2 text-white rounded-xl overflow-hidden">
+        <div class="mt-2 px-3 flex justify-between items-center text-md">
+            <h2>Your Playlist</h2>
+            <div class="flex gap-6">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>    
+        </div>
+        <div class="mt-7 px-3"><a href="#"><h2>Playlists</h2></a></div>
+        <div class="mt-10 px-3 flex justify-between items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="flex items-center gap-6">
+                <h3>Recents</h3>
+                <i class="fa-solid fa-list"></i>
+            </div>
+        </div>
+        <div class="text-white mt-10 px-3 flex">
+            <div class="h-7 w-7"><img class="w-full object-cover" src="heart.jpeg"></div>
+            <h3 class="ml-2 text-sm">Liked Songs</h3>    
+        </div>
+        <div class="text-white mt-4 px-3 flex">
+            <div class="bg-blue-100 h-7 w-7"><img class="w-full object-cover" src="heart.jpeg"></div>
+            <h3 class="ml-2 text-sm">Bollywood Mix</h3>
+        </div>
+        <div class="text-white mt-4 px-3 flex">
+            <div class="bg-blue-100 h-7 w-7"><img class="w-full object-cover" src="heart.jpeg"></div>
+            <h3 class="ml-2 text-sm">Bollywood Mix</h3>
+        </div>
+      </div>
+
+      <!-- Center Content -->
+      <div class="col-span-12 md:col-span-10 xl:col-span-8 space-y-4 overflow-hidden px-2">
+        <div class="bg-[#1C1C1C] text-white px-3 py-4 rounded-xl h-full flex flex-col">
+          <div class="flex gap-8 px-3">
+            <h2>All</h2>
+            <h2>Music</h2>
+            <h2>Podcasts</h2>
+          </div>
+          <div class="text-3xl font-bold mt-4 px-3">
+            <h1>It's new music Friday !</h1>
+          </div>
+          <div class="grid gap-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 p-2 mt-4 flex-grow overflow-hidden">
+            <div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class=" rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div>
+            <div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div><div class="bg-[#2E2E2E] h-60 rounded-xl ">
+              <div class="bg-blue-100 h-45 m-2 rounded"><img class="rounded h-full w-full" src="images.jpeg"></div>
+                <h3 class="px-3 text-white text-lg font-semibold mt-3">Bollywood Mix</h3>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Bar -->
+      <div class="rounded-xl hidden md:block col-span-2 bg-[#1C1C1C] ml-2 overflow-hidden">
+        <div class="mb-2 h-12 text-white p-3 px-3">
+          <h2 class="font-bold text-xl">Liked Songs</h2>
+        </div>
+        <div class="h-65 px-3"><img class="h-65 w-full object-conatiner rounded" src="weekend.jpeg"></div>
+        
+        <div class="px-4">    
+          <h2 class="text-white text-2xl font-bold mt-3">Starboy</h2>
+          <h4 class="text-white text-gray-400 text-sm">The Weekend</h4>
+          <h3 class="text-white font-semibold text-lg mt-6">About The Artist</h3>
+          <div class="text-white font-semibold mt-3">
+            <h2>The Weekend</h2>
+            <p>116,347,021 <br>Monthly Listeners</p>
+          </div>
+        </div>
+      </div>
+</div>
+
+    <!-- Footer -->
+    <div class="font-bold bg-[#080002] h-24">
+      <div class="flex items-center justify-between text-white px-3 py-5 h-full">
+        <div class="flex items-center gap-4">
+          <div class="bg-pink-900 h-13 w-13 rounded-xl">
+            <img class="h-full w-full object-cover rounded" src="weekend.jpeg">
+          </div>
+          <h2 class="text-2xl">Starboy</h2>
+          <div><i class="fa-solid fa-certificate" style="color: #00ff40;"></i></div>
+        </div>
+        <div class="flex gap-6">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div class="flex gap-6 px-3">
+          <i class="fa-solid fa-microphone-lines"></i>
+          <i class="fa-solid fa-rectangle-list"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <i class="fa-solid fa-expand"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
