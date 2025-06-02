@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let marks = parseFloat(prompt("enter your marks out of 100:"));
+        const t_marks = 100;
+
+        let per = (marks / t_marks) * 100;
+
+        switch (true) {
+            case (per > 80 && per <= 100):
+                alert("grade a");
+                break;
+
+
+            case (per > 60 && per <= 80):
+                alert("grade b");
+                break;
+
+
+            case (per > 45 && per <= 60):
+                alert("grade c");
+                break;
+
+
+            case (per > 33 && per <= 45):
+                alert("grade d");
+                break;
+
+            case (per >= 0 && per <= 33):
+                alert("fail");
+                break;
+
+            default:
+                alert("invalid value");
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
