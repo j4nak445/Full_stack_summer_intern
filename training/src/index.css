@@ -1,0 +1,56 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1746132730694-92a72b5dc843?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  background: #181c20 !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  border-bottom: 1px solid #23272b;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .nav-link.active {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+
+
+
+.card {
+  background: #23272b;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+
+
+
+.carousel-inner img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+.my-carousel {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-height: 320px;
+  overflow: hidden;
+}
+.my-carousel .carousel-inner img {
+  max-height: 300px;
+  object-fit: cover;
+}
+

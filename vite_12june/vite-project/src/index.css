@@ -1,0 +1,148 @@
+body {
+  background: #fff;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #f8f8f8;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #222;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #1976d2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+}
+
+input, button, select, textarea {
+  background: #fff;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin: 0.25em 0;
+}
+
+input:focus, button:focus, select:focus, textarea:focus {
+  outline: 2px solid #1976d2;
+}
+
+button {
+  cursor: pointer;
+  background: #f5f5f5;
+  color: #222;
+  border: 1px solid #1976d2;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+a {
+  color: #1976d2;
+}
+/* Center the login form and heading */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 2rem 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+  
+/* Center the whole form container vertically and horizontally */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+/* Center the signup form and heading */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 2rem 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+  
+/* Center the whole form container vertically and horizontally */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
